@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nuance.NPA.Domain.News\Nuance.NPA.Domain.News.csproj" />
+    <ProjectReference Include="..\Nuance.NPA.Domain.Source\Nuance.NPA.Domain.Source.csproj" />
+    <ProjectReference Include="..\Nuance.NPA.Infrastructure.Source\Nuance.NPA.Infrastructure.Source.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AutoMapper.Extensions.Microsoft.DependencyInjection">
+      <HintPath>..\..\..\..\.nuget\packages\automapper.extensions.microsoft.dependencyinjection\7.0.0\lib\netstandard2.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nuance.NPA.Common\Nuance.NPA.Common.csproj" />
+    <ProjectReference Include="..\Nuance.NPA.DTO\Nuance.NPA.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
